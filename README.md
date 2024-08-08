@@ -97,7 +97,7 @@ CMD ["flask", "run", "--host=0.0.0.0", "--port=11434"]
 #### docker-compose.yml
 
 ```yaml
-version: '3.8'
+
 
 services:
   codellama:
