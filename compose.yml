@@ -1,4 +1,4 @@
-
+version: '3.8'
 
 services:
   codellama:
@@ -8,10 +8,12 @@ services:
     ports:
       - "11434:11434"
 
-  app:
+  flask-server:
     build: .
     volumes:
       - .:/app
+    ports:
+      - "11435:11434"
     depends_on:
       - codellama
 
