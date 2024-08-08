@@ -47,6 +47,10 @@ The provided shell script code in the .git/hooks/pre-commit file automates the c
 - Add or modify the python files.
 - Apply a commit message and wait for the review. I could take some minutes, the final result is a review.md with all suggestions from codellama.
 
+## How can I customize the prompts provided to the CodeLLama model for generating suggestions?
+
+To customize the prompts provided to the CodeLLama model for generating suggestions, you can modify the prompt variable within the shell script.
+
 
 
 
