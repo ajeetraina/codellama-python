@@ -62,13 +62,18 @@ exit 0
 The provided shell script automates the code review process by finding all modified Python files, cleaning the review.md file, and iterating through each file to generate suggestions using the Ollama model. The suggestions are then appended to the `review.md` file, providing developers with immediate feedback on their code changes.
 
 
+## Step 4. Proper permission to execute
 
-## Step 4. Add or modify the python files
+```
+chmod +x .git/hooks/pre-commit
+```
+
+## Step 5. Add or modify the python files
 
 Go ahead and make changes to the python files.
 
 
-## Step 5. Apply the changes
+## Step 6. Apply the changes
 
 Apply a commit message and wait for the review. It could take some minutes, the final result is a `review.md` with all suggestions.
 
