@@ -43,7 +43,7 @@ exit 0
 - Apply a commit message and wait for the review. I could take some minutes, the final result is a review.md with all suggestions from codellama.
 
 
-#### Running with Docker
+## Running with Docker
 
 For the Docker container that runs the Flask server, the `requirements.txt` file should include the Flask library and any other dependencies your application needs. Given the context of the example, you would minimally need Flask and possibly the `requests` and `flask-cors` libraries if you're making HTTP requests or handling cross-origin resource sharing.
 
