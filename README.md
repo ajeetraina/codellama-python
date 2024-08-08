@@ -3,17 +3,22 @@ This is a PoC about integrating docker + codellama + python in order to apply co
 
 # Getting Started
 
-## Step 1: Start the Ollama container
+## Step 1. Clone the repository
+
+```
+git clone https://github.com/dockersamples/codellama-python
+```
+
+
+
+## Step 2: Start the Ollama container
+
+Change directory to `codellama-python` and run the following command:
 
 ```
 sh start-ollama.sh
 ```
 
-## Step 2. Clone the repository
-
-```
-git clone https://github.com/dockersamples/codellama-python
-```
 
 ## Step 3. Create the following file `.git/hooks/pre-commit`
 
