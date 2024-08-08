@@ -1,10 +1,24 @@
 # codellama-python
 This is a PoC about integrating docker + codellama + python in order to apply code review in the pre-commit git hook
 
-# How it works
-- First you should serve `ollama` using docker `docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama` .
-- Clone this project and move inside it.
-- Create the following file `.git/hooks/pre-commit`
+# Getting Started
+
+## Step 1: Start the Ollama container
+
+```
+sh start-ollama.sh
+```
+
+## Step 2. Clone the repository
+
+```
+git clone https://github.com/dockersamples/codellama-python
+```
+
+## Step 3. Create the following file `.git/hooks/pre-commit`
+
+Copy the content below and put it in the right directory:
+
 ```
   #!/bin/sh
 
