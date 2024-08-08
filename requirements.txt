@@ -1,2 +1,5 @@
 docker
 GitPython
+Flask
+requests
+flask-cors
