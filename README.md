@@ -39,8 +39,15 @@ done
 echo "All Python files were applied the code review."
 exit 0
 ```
+
+The provided shell script code in the .git/hooks/pre-commit file automates the code review process by finding all modified Python files, cleaning the review.md file, and iterating through each file to generate suggestions using the Ollama model. The suggestions are then appended to the review.md file, providing developers with immediate feedback on their code changes.
+
+
+
 - Add or modify the python files.
 - Apply a commit message and wait for the review. I could take some minutes, the final result is a review.md with all suggestions from codellama.
+
+
 
 
 ## Running with Docker
