@@ -167,13 +167,13 @@ exit 0
 1. **Build the Docker containers:**
 
     ```sh
-    docker-compose build
+    docker compose build
     ```
 
 2. **Run the Docker containers:**
 
     ```sh
-    docker-compose up
+    docker compose up
     ```
 
 3. **Modify your Python files and commit the changes to trigger the pre-commit hook.**
